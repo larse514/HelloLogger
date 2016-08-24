@@ -12,6 +12,6 @@
   </head>
   <body>
   $END$
-  test
+  test2
   </body>
 </html>
