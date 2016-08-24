@@ -10,6 +10,7 @@ public class MessageServiceTest {
     @Test
     public void testGetHelloMessage() throws Exception {
         MessageService service = new MessageService();
-        assert(service.getHelloMessage().equals("Hello World"));
+        System.out.println("tested");
+        assert(!service.getHelloMessage().equals("Hello World"));
     }
 }
