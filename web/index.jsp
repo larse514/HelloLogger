@@ -9,7 +9,7 @@
 <html>
   <head>
     <title>$Title$</title>
-  </head>asdf
+  </head>asdfasdf
   <body>
   $END$
   test23455684asdfasdfasdfasdfasfaws testasdf
