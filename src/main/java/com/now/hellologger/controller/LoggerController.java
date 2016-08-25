@@ -21,7 +21,7 @@ public class LoggerController {
     @ResponseBody
     public ResponseEntity<String> hello(){
         log.info("hello logger");
-        return new ResponseEntity<String>("hello", HttpStatus.OK);
+        return new ResponseEntity<String>("hello deploy", HttpStatus.OK);
     }
 
 }
