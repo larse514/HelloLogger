@@ -2,7 +2,7 @@
 files: 
   - 
     destination: /usr/share/tomcat8/webapps/
-    source: target/1.0-SNAPSHOT.war
+    source: /1.0-SNAPSHOT.war
 hooks: 
   ApplicationStart: 
     - 

@@ -2,6 +2,6 @@
 
 sudo service tomcat8 stop
 
-sudo rm -rf 1.0-SNAPSHOT* 
+sudo rm -rf *.war 
 
 sudo service tomcat8 start
