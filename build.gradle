@@ -36,7 +36,7 @@ task zipS3Archive(type: Zip) {
     from 'build/libs/'
     include '*'
     archiveName 'now-s3.zip'
-    destinationDir(file('/dir/'))
+    destinationDir(file('dir/'))
 }
 
 war{
