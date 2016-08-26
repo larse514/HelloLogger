@@ -9,7 +9,7 @@
 <html>
   <head>
     <title>$Title$</title>
-  </head>asdfasdf
+  </head>asdfasdfasdf
   <body>
   $END$
   test23455684asdfasdfasdfasdfasf t hts
