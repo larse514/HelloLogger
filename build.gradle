@@ -28,6 +28,17 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
 
+
+task zipS3Archive(type: Zip) {
+    from 'ci/'
+    include '*'
+    include '*/*' //to include contents of a folder present inside Reports directory
+    from 'build/libs/'
+    include '*'
+    archiveName 'now-s3.zip'
+    destinationDir(file('/dir/'))
+}
+
 war{
     webInf { from 'web/WEB-INF'}
 }

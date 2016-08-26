@@ -1,0 +1,17 @@
+--- 
+files: 
+  - 
+    destination: /usr/share/tomcat8/webapps/
+    source: target/1.0-SNAPSHOT.war
+hooks: 
+  ApplicationStart: 
+    - 
+      location: deploy_hooks/restart-tomcat.sh
+      runas: root
+      timeout: 3600
+  ValidateService: 
+    - 
+      location: deploy_hooks/post-commit.sh
+      timeout: 3600
+os: linux
+version: 0.0
