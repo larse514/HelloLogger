@@ -1,35 +1,35 @@
 {
-	"id": "8c9760ad-7706-1eb1-87a9-f84b7f8fbd33",
+	"id": "daac3ef4-602a-49f8-4596-cb9b2c287424",
 	"name": "HelloLoggerIntegrationTests",
 	"description": "",
 	"order": [
-		"d21cc82c-3fc7-35c5-8734-0be37075b51f"
+		"de1ccceb-6640-d071-6a47-a1678e120d58"
 	],
 	"folders": [],
 	"timestamp": 1472177880120,
 	"owner": "837563",
 	"public": false,
 	"published": false,
+	"hasRequests": true,
 	"requests": [
 		{
-			"id": "d21cc82c-3fc7-35c5-8734-0be37075b51f",
+			"id": "de1ccceb-6640-d071-6a47-a1678e120d58",
 			"headers": "",
-			"url": "http://ec2-52-24-202-231.us-west-2.compute.amazonaws.com:8080/1.0-SNAPSHOT/hello",
-			"pathVariables": {},
+			"url": "http://ec2-52-24-202-231.us-west-2.compute.amazonaws.com:8080/now-1.0-SNAPSHOT/hello",
 			"preRequestScript": null,
+			"pathVariables": {},
 			"method": "GET",
-			"collectionId": "8c9760ad-7706-1eb1-87a9-f84b7f8fbd33",
 			"data": null,
 			"dataMode": "params",
-			"name": "Hello Deploy Change",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1472177880119,
 			"version": 2,
-			"responses": [],
 			"tests": "tests[\"Body is correct\"] = responseBody === \"hello deploy change\";\n\ntests[\"Status code is 200\"] = responseCode.code === 200;",
 			"currentHelper": "normal",
-			"helperAttributes": {}
+			"helperAttributes": {},
+			"time": 1472192101316,
+			"name": "Hello Deploy Change",
+			"description": "",
+			"collectionId": "daac3ef4-602a-49f8-4596-cb9b2c287424",
+			"responses": []
 		}
 	]
 }
